@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  box-sizing: border-box;
+}
+
+/* ------------------navbar css -------------------*/
+nav{
+  height: 70px;
+  color: white;
+  background-color: rgb(8, 8, 74);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  position: sticky;
+  top: 0px;
+  z-index: 200;
+
+
+}
+#logo a{
+  text-decoration: none;
+  color: white;
+}
+#logo h1{
+  font-family: 'Bruno Ace SC', cursive;
+  letter-spacing: 4px;
+}
+
+#logo h1 i{
+  font-size: 30px;
+  margin-top: 5px;
+
+}
+
+#search-bar input{
+  width: 450px;
+  height: 45px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+#search-bar i{
+  font-size: 25px;
+  position: relative;
+  top: 6px;
+  right: -45px;
+  color: black;
+
+}
+#search-bar button{
+  width: 100px;
+  height: 45px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+ margin-left: -100px;
+
+}
+#search-bar button:hover{
+ background-color:  rgb(8, 8, 74);
+ border: 1px solid white;
+ color: white;
+}
+#add-movie a, #fav-movie a{
+  width: 80px;
+  height: 35px;
+  border: 1px rgb(8, 8, 74) solid;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: 0.2s linear;
+}
+#add-movie a:hover, #fav-movie a:hover {
+  background-color: white;
+  color: rgb(8, 8, 74);
+}
+#profile i{
+  font-size: 50px;
+}
+
+#hamberger{
+  display: none;
+}
+
+.suggestion{
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 80px;
+  left: 470px;
+  background-color: rgba(240, 234, 234, 0.934);
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+
+}
+.suggestion ul{
+  list-style: none;
+}
+.suggestion ul li{
+  padding: 5px;
+  background-color: transparent;
+}
+
+.suggestion ul li:hover{
+  background-color: rgba(177, 177, 208, 0.589);
+  cursor: pointer;
+}
+
+
+/* ------------------Home Style css----------------- */
+
+.home{
+  padding: 20px 100px;
+}
+/* ---------------movie list CSS---------------- */
+.movies{
+  width: 80vw;
+  height: auto;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.movie{
+  width: 250px;
+  height: auto;
+  padding: 12px;
+  border: solid 1px black;
+  border-radius: 4px;
+  transition: 0.2s;
+  text-align: center;
+}
+
+.movie img{
+  width: 100%;
+  height: 250px;
+  border-radius: 6px;
+}
+.movie:hover{
+  transform: scale(1.05);
+}
+
+/* -------------movielist styling---------- */
+.movielist{
+  text-decoration: none;
+  color: black;
+
+}
+
+#title{
+  text-align: center;
+  /* background-color: rgb(165, 165, 222); */
+  background: linear-gradient(rgb(131, 136, 211) 0%, rgb(131, 136, 211) 70% , white 70%, white 100%);
+  color: black;
+  position: sticky;
+  top: 100px;
+  z-index: 100;
+  height: 70px;
+}
+.movie button
+{
+ background-color: transparent;
+ border: none;
+  font-size: 35px;
+}
+/* -------------------------------ADD MOVIE PAGE------------------- */
+.add-movie{
+  width: 600px;
+  height: auto;
+  margin:50px auto;
+  padding: 15px;
+  background-color: rgb(6, 6, 57);
+  color: white;
+  text-align: center;
+}
+.add-movie h1{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+form{
+  width: 100%;
+  height: auto;
+ 
+}
+#text-input input{
+  width: 90%;
+  height: 35px;
+  display: inline-block;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  padding: 25px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+/* --------------------------------- */
+fieldset{
+  margin-left: 45px;
+ 
+
+}
+fieldset input[type="checkbox"]
+{
+  display: inline-block;
+  color: white;
+  margin-bottom: 25px;
+}
+fieldset label{
+  display: inline-flexbox;
+  padding: 10px; 
+  margin: 0px 10px 0 0;
+}
+
+fieldset legend{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px auto;
+}
+.lan{
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+}
+
+#other-inp input{
+  height: 35px;
+  width: 90%;
+  display: inline-block;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  padding: 25px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+textarea{
+  margin: 0 0 0 20px;
+  border-radius: 8px;
+  width: 90%;
+  margin-right: 15px;
+  padding: 25px;
+}
+input[type="submit"]
+{
+  width: 100px;
+  height: 40px;
+  margin: 15px auto;
+  padding: 5px;
+  border: 1px solid green;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: rgb(8, 235, 8);
+  color: white;
+
+}
+/* --------------Movie- details------------ */
+
+.movie-component #delete-btn,#update-btn{
+  display: block;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  margin: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 20px;
+  color: black;
+}
+
+.movie-component #delete-btn:hover {
+  background-color: rgb(5, 5, 83);
+  color: white;
+}
+
+.movie-component #update-btn:hover{
+  background-color: rgb(5, 5, 83);
+  color: white;
+}
+/* -------------------------Loading------------------------------ */
+
+.loading{
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  border-top:solid 20px black;
+  border-bottom:solid 20px black;
+  border-right:solid 20px white;
+  border-left:solid 20px white;
+  border-radius: 50%;
+  animation: loading 1s linear infinite;
+}
+@keyframes loading {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+/* ----------------responsive tablet screen----------- */
+
+@media (max-width:1280px) {
+  nav{
+    padding: 20px 60px;
+  }
+
+  #logo h1{
+    font-size: 25px;
+  }
+  
+  #logo h1 i{
+    font-size: 25px;
+  }
+
+  #search-bar input{
+    width: 350px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  #search-bar button{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: -60px;
+  
+  }
+
+  #add-movie , #fav-movie {
+    display: none;
+  }
+  #hamberger{
+    display: block;
+  }
+    #hamberger i{
+      font-size: 30px;
+    }
+  #menu{
+    background-color: black;
+    width: 170px;
+    position: absolute;
+    top: 75px;
+    right: 50px;
+  }
+  #menu a{
+    display: block;
+    margin: 5px 10px;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.2s linear;
+  }
+  #menu a:hover{
+    color: black;
+    background-color: white;
+  }
+}
+
+@media (max-width:890px) 
+{
+   #search-bar input{
+    width: 250px;
+    height: 35px;
+    font-size: 13px;
+    padding-left: 15px;
+  }
+   #search-bar button{
+    width: 60px;
+    height: 35px;
+    font-size: 13px;
+    margin-left: -60px;
+  
+  }
+}
+
+/*------------responsive mobile screen-------------- */
+
+@media (max-width:700px) 
+{
+  nav{
+    padding: 20px 40px;
+  }
+  #logo h1{
+    font-size: 20px;
+  }
+  #search-bar{
+    width: 250px;
+  }
+  #search-bar input{
+    width: 150px;
+    height: 35px;
+    font-size: 10px;
+  }
+  #search-bar button{
+    width: 40px;
+    height: 35px;
+    margin-left: -30px;
+    font-size: 10px;
+  }
+
+  .home{
+    padding: 50px;
+  }
+  .movie-list{
+    width: 90vw;
+  }
+  .movies{
+    width: 100%;
+    height: 400px;
+    /* horizontal scroll  */
+    flex-direction: column; 
+    /* vertical scroll  */
+    /* flex-direction: row; */
+    overflow: auto;
+  }
+  .movie{
+    width: 210px;
+    margin: 0px 20px;
+    padding: 10px;
+    transition: 0.2s;
+  }
+  .movie a{
+    color: black;
+    text-decoration: none;
+  }
+  .movie img{
+    width: 100%;
+    height: 210px;
+    border-radius: 6px;
+  }
+  .movie:hover{
+    transform: scale(1.05);
+  }
+  .movie h2{
+    font-size: 20px;
+  }
+  .add-movie{
+    transform: scale(0.8);
+    margin: 0px auto;
+  }
+  .add-movie h1{
+    margin: 0px;
+  }
+}
+
+@media (max-width:500px){
+  #logo h1{
+    font-size: 15px;
+  }
+  #search-bar{
+    width: 250px;
+  }
+  #search-bar input{
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+  }
+  #search-bar button{
+    width: 40px;
+    height: 30px;
+    margin-left: -20px;
+    font-size: 10px;
+  }
+}

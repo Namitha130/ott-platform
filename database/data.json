@@ -1,0 +1,127 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "moviename": "Kantara",
+      "hero": "Rishab",
+      "heroine": "sapthami gowda",
+      "director": "Rishab shetty",
+      "languages": [
+        "kannada",
+        "tamil",
+        "telugu",
+        "malayalam",
+        "hindi"
+      ],
+      "genre": "comedy divine",
+      "poster": "https://static.toiimg.com/thumb/msid-97698497,width-1280,resizemode-4/97698497.jpg",
+      "trailer": "https://www.youtube.com/embed/ppYoIoW73PI",
+      "release": "2022",
+      "rating": "9.5",
+      "synopsis": "Set in a fictional village of Dakshina Kannada, Kantara is a visual grandeur that brings alive the traditional culture of Kambla and Bhootha Kola. It is believed that Demigods are the guardians and their energies encircle the village. In the story, there is a ripple when a battle of ego swirls along tradition and culture of the land. The soul of the story is on human and nature conflict in which Shiva is the rebellion and works against nature. There are intense conflicts he indulges in. In the end, a much awaiting loop leads to war between the villagers and the evil forces. Will Shiva, the protagonist of the film be able to reinstate peace and harmony in the village perceiving his existence?"
+    },
+    {
+      "moviename": "RRR",
+      "hero": "NTR Ramcharan",
+      "heroine": "alia",
+      "director": "Rajmouli",
+      "languages": [
+        ""
+      ],
+      "genre": "historical divine",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/rrr-et00094579-12-05-2022-02-26-04.jpg",
+      "trailer": "https://www.youtube.com/embed/GY4BgdUSpbE",
+      "release": "2021",
+      "rating": "8.9",
+      "synopsis": "RRR is a period drama set in India during the 1920s, revolving around the inspiring journey of two of India`s freedom fighters - Alluri Sitarama Raju and Komaram Bheem.",
+      "id": 3
+    },
+    {
+      "moviename": "Love mocktail",
+      "hero": "Darling Krishna",
+      "heroine": "Milana Nagaraj , Amrutha",
+      "director": "Darling Krishna",
+      "languages": [
+        ""
+      ],
+      "genre": "romance",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/love-mocktail-et00124382-20-10-2020-09-58-18.jpg",
+      "trailer": "https://www.youtube.com/embed/IsEdANxZD3c",
+      "release": "2020",
+      "rating": "8.5",
+      "synopsis": "Love moctail is a romantic and fun film about the protagonist Adi`s quest for love. Life takes him through a roller coaster of a ride and he goes through varied experiences at several stages throughout his search for true love. Does Adi finally find his soul mate?",
+      "id": 5
+    },
+    {
+      "moviename": "Ponniyin Selvan-2",
+      "hero": "Vikram",
+      "heroine": "Aishwarya rai",
+      "director": "Mani rathnam",
+      "genre": "action adventure historical",
+      "poster": "https://www.slnkhabar.in/wp-content/uploads/2023/04/Ponniyin-Selvan-2.jpg",
+      "trailer": "https://www.youtube.com/embed/EnhS3matIoU",
+      "release": "2023",
+      "rating": "8.5",
+      "synopsis": "A plot to murder the king and the two princes of the Chola dynasty is underfoot. Can the Cholas survive the wrath of the Pandiya rebels, who are being led by the vengeful Nandhini?",
+      "languages": [
+        "add selected langusages"
+      ],
+      "id": 11
+    },
+    {
+      "moviename": "kerala story",
+      "hero": "ada sharma",
+      "heroine": "siddhi idnani",
+      "director": "sudipto sen",
+      "genre": "thriller",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/the-kerala-story-et00343918-1683025350.jpg",
+      "trailer": "https://www.youtube.com/embed/3Jk3vquJDGs",
+      "release": "2023",
+      "rating": "9.6",
+      "synopsis": "A spine-chilling, never told before true story - revealing a dangerous conspiracy that has been hatched against India. The Kerala Story is a compilation of the true stories of three young girls from different parts of Kerala.The truth shall set us free! Thousands of innocent women have been systematically converted, radicalized & their lives destroyed. It`s their side of the story.",
+      "languages": [
+        "tamil",
+        "telagu",
+        "malayalam",
+        "hindi"
+      ],
+      "id": 12
+    },
+    {
+      "moviename": "CUSTODY",
+      "hero": " Akkineni Naga Chaitanya",
+      "heroine": "Krithi Shetty",
+      "director": "Venkat Prabhu",
+      "languages": [
+        "",
+        "tamil",
+        "telagu"
+      ],
+      "genre": "action arime thriller",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/custody-et00354148-1677833307.jpg",
+      "trailer": "https://www.youtube.com/embed/jMMaZXXfwjI",
+      "release": "2023",
+      "rating": "9.5",
+      "synopsis": "Custody is a bilingual movie starring Naga Chaitanya Akkineni and Krithi Shetty in the lead.",
+      "id": 13
+    },
+    {
+      "moviename": "Virupaksha",
+      "hero": "Sai Daram Tej",
+      "heroine": "Samyuktha menon",
+      "director": "Karthik Varma dandu",
+      "genre": " Action  Mystery  Thriller",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/virupaksha-et00346626-1681729599.jpg",
+      "trailer": "https://www.youtube.com/watch?v=CX7hjYjLE5w&ab_channel=SonyMusicSouth",
+      "release": "2024",
+      "rating": "9.3",
+      "synopsis": "Set in a village named Rudravanam in 1990`s and inspired by ancient Indian superstitions, Virupaksha tells the story of Surya who discovers some mystical paranormal activities occurring in the village. Can he save the village?",
+      "languages": [
+        "",
+        "tamil",
+        "telagu"
+      ],
+      "id": 14
+    }
+  ]
+}
